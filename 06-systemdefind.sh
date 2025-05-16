@@ -4,11 +4,10 @@
 #all system defind varaibles are uppercase 
 <<systemdefinedvaraibles
 $HISTSIZE
-
 username=$USER
-  
 systemdefinedvaraibles
 
+#below are the examples
 
 echo "systemdefined varaiables"
 
@@ -17,5 +16,6 @@ username=$USER
 
 echo "The histsize is : " $HISTSIZE
 ehco "The username is : " $username
+
 
 
