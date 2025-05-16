@@ -10,3 +10,12 @@ set +x
 echo "now the above lines are running on debug mode"
 echo "check the error's on debug lines"
 
+echo "Todays date is:" `date`
+ls 
+echo "Debug mode is on"
+set -x
+date
+set +x
+echo "Edned debugmode"
+
+
