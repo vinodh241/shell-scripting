@@ -4,8 +4,7 @@
 
 echo "This is the frist line"
 echo "Now im running the below lines on debugmode"
-#Debugmode 
-set -x
+set -x  #Debugmode ON
 echo "Hello welcome to the sjel-practice"
 set +x
 echo "now the above lines are running on debug mode"
