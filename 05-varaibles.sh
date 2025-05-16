@@ -20,7 +20,6 @@ Varaiables
      b=20
      c=30
 UV
-
 echo "User defind varaibles"
 a=10
 b=20
@@ -32,7 +31,6 @@ echo "c varaible value is:"$c
 echo "name varaible value is:"$name
 
 date
-
 cal
 
 ls
