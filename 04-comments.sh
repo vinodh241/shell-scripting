@@ -18,5 +18,5 @@
  ls
  cal
  cat
- vinodh
+vinodh
  echo "comments are used above lines"
