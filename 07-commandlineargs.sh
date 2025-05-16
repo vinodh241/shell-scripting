@@ -33,7 +33,7 @@ $? --> 0 (success only other than zero any numeber failure) 127 is command not f
 
 commandlinearguments
 
-
+<<CLA
 echo "Command line arguments"
 
 echo "scriptname is : " $0
@@ -48,6 +48,8 @@ echo "All the arguments using : " $@
 date
 echo "Process ID is : " $$
 echo "Previous command execution status is : " $?
+CLA
+
 
 
 
