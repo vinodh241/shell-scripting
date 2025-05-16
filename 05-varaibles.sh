@@ -26,10 +26,13 @@ echo "a varaibles value is:"$a
 echo "b varaibles value is:"$b
 echo "c varaibles value is:"$c
 echo "name varaible value is:"$name
-echo "varaibles value is"$varaibales
 date
+
 cal
-echo "The above line status is:"$?
+
+ls
+
+#echo "The above line status is:"$?
 echo "Number of varaibles is:"$#
 
 
