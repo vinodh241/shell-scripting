@@ -50,6 +50,32 @@ echo "Process ID is : " $$
 echo "Previous command execution status is : " $?
 CLA
 
+echo "command line arguments"
+
+echo "The script name is : " $0
+echo "The Database Name is : " $1
+echo "The Database Ip is : " $2
+echo "The Database host is : " $3
+echo "The Database location is : " $4
+echo "The Databse Owner is : " $5
+echo "The Database size is : " $6
+
+echo "Number of Arguments is : " $#
+echo "All the Arguments is : " $*
+echo "All the Arguments using  is : " $@
+echo "The Status of above line is : " $?
+echo "Process ID is : " $$
+echo "command line argumnets 2nd scripting"
+date 
+echo "The status of the line is : " $?
+
+echo "Checking java version"
+
+java --version 
+
+echo "The status of above line is : " $?
+echo "The Numnber of args passed is : " $#
+
 
 
 
