@@ -69,10 +69,8 @@ echo "command line argumnets 2nd scripting"
 date 
 echo "The status of the line is : " $?
 
-echo "Checking java version"
-
-java --version 
-
+echo "Installing nodejs"
+dnf install nodejs -y
 echo "The status of above line is : " $?
 echo "The Numnber of args passed is : " $#
 
