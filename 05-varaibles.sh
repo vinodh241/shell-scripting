@@ -27,7 +27,7 @@ echo "a varaibles value is:"$a
 echo "b varaibles value is:"$b
 echo "c varaibles value is:"$c
 echo "name varaible value is:"$name
-echo "varaibles value is"$Varaibles
+echo "varaibles value is"$varaibales
 date
 cal
 echo "The above line status is:"$$
