@@ -6,7 +6,6 @@
 $HISTSIZE
 username=$USER
 systemdefinedvaraibles
-
 #below are the examples
 
 echo "systemdefined varaiables"
@@ -15,7 +14,7 @@ HistorySize=$HISTSIZE
 username=$USER
 
 echo "The histsize is : " $HISTSIZE
-ehco "The username is : " $username
+ehco "The username is : " $USER
 
 
 
