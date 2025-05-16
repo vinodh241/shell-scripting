@@ -1,5 +1,14 @@
 #!/bin/bash
 #Shell script supporting 2 types of comments
+#Adding comments make things easy for the programmer, while editing the code in future
+
+# This is single line comment
+
+<<VINODH
+---
+Multi line comments idicates below
+---
+VINODH
 
 #single line comment and multiline comment
 
