@@ -30,7 +30,7 @@ echo "name varaible value is:"$name
 echo "varaibles value is"$Varaibles
 date
 cal
-echo "The above line status is:"$!
+echo "The above line status is:"$$
 echo "Number of varaibles is:"$#
 
 
