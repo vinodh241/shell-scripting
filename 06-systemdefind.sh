@@ -15,8 +15,7 @@ echo "systemdefined varaiables"
 HistorySize=$HISTSIZE
 username=$USER
 
-echo "The histsize is : "$HISTSIZE
-ehco "The user is : "$username
-echo "The present working directory is :"$pwd
+echo "The histsize is : " $HISTSIZE
+ehco "The username is : " $username
 
 
