@@ -2,7 +2,7 @@
 
 echo "Installing java software"
 
-dnf install open-jdk:latest -y
+dnf install java-latest-openjdk.x86_64 -y
 
 echo "Checking the java version is : "
 
