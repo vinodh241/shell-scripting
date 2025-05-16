@@ -22,7 +22,6 @@ a=10
 b=20
 c=30
 name=vinodh
-varaibales=userdefind varaibales
 echo "a varaibles value is:"$a
 echo "b varaibles value is:"$b
 echo "c varaibles value is:"$c
@@ -30,7 +29,7 @@ echo "name varaible value is:"$name
 echo "varaibles value is"$varaibales
 date
 cal
-echo "The above line status is:"$$
+echo "The above line status is:"$?
 echo "Number of varaibles is:"$#
 
 
