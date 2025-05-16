@@ -71,6 +71,12 @@ echo "The status of the line is : " $?
 
 echo "Installing nodejs"
 dnf install nodejs -y
+echo "Installing nodejs software"
+echo "Nodejs is installed"
+echo "Nodejs version is : "
+
+node -v
+
 echo "The status of above line is : " $?
 echo "The Numnber of args passed is : " $#
 
