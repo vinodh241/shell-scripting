@@ -40,7 +40,7 @@ echo "scriptname is : " $0
 echo "1st Argument is : " $1
 echo "2nd Arguments is : " $2
 echo "3rd Argument is : " $3   
-echo "1oth Argument is : "$10
+echo "10th Argument is : "${10}
 
 echo "Number of arguments is : " $#
 echo "All the arguments using : " $*
