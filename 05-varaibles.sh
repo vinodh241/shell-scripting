@@ -1,10 +1,13 @@
 #!/bin/bash
 #Varaibles = 
 <<Varaiables
-
+ A Varaibles is character string to which we assign a value. the value assigned cloud be a number, text, filenme, device, or any other type of data
 Varaiables
 # varaibles 2 types
-# System define varaibles and user define variables
+ 
+# System define varaibles
+# user define variables
+
 # How to see all system define varaibles ?
 #( env or printenv )
 # pwd (lowercase) command name
