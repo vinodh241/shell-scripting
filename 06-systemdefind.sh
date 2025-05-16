@@ -14,7 +14,7 @@ HistorySize=$HISTSIZE
 username=$USER
 
 echo "The histsize is : " $HISTSIZE
-ehco "The username is : " $USER
+echo "The username is : " $USER
 
 
 
