@@ -17,15 +17,17 @@ Varaiables
      b=20
      c=30
 UV
+
 echo "User defind varaibles"
 a=10
 b=20
 c=30
 name=vinodh
-echo "a varaibles value is:"$a
-echo "b varaibles value is:"$b
-echo "c varaibles value is:"$c
+echo "a varaible value is:"$a
+echo "b varaible value is:"$b
+echo "c varaible value is:"$c
 echo "name varaible value is:"$name
+
 date
 
 cal
