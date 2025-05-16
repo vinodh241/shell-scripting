@@ -14,6 +14,6 @@ echo "Vinodh.sh"
 echo "Vinodh_20250516.sh"
 echo "Vinodh_19.sh"
 
-echo "Dont use special charcters"
+echo "Dont use special charcters like($%#@!*)"
 
 
