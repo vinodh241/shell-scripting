@@ -4,10 +4,8 @@
 
 echo "Hello Vinodh"
 echo "Running shell-scripting on debug mode"
-
 set -x
 echo "Now this line running on debugmode"
-set -x
-
+set +x
 echo "The above lines executed on debug mode"
 
