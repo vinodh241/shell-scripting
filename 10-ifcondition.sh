@@ -54,9 +54,9 @@ if [ $? -eq 0 ]
     echo "Installing MuSQL is .... FAILURE"
     exit 1
 fi 
-  else
-        echo "MYSQL is already installed .. Nothing to do"
-        exit 1 
+    else
+    echo "MYSQL is already installed .. Nothing to do"
+    exit 1 
 fi
 
 
