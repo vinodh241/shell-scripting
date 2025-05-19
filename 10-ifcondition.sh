@@ -44,7 +44,7 @@ if [ $USERID -ne 0 ]
         else 
         echo "You are running with root access"
         fi
-dnf lis installed mysql
+dnf list installed mysql
 if [ $? -eq 0 ]
         then 
         ehco "Installing MySQL is ... SUCCESS"
