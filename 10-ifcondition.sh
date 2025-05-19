@@ -38,26 +38,26 @@ echo "ifelse condition"
 
 USERID=$( id -u )
 if [ $USERID -ne 0 ]
-        then
-        echo "ERROR:: Please run this script with root access"
-        exit 1
-        else 
-        echo "You are running with root access"
-        fi
-dnf list installed mysql
+then
+    echo "ERROR:: Please run this script with root access"
+    exit 1
+    else 
+    echo "You are running with root access"
+fi
+    dnf list installed mysql
+    echo "MYSQL is not instaled ... Going to install"
+    dnf install mysql -y  
 if [ $? -eq 0 ]
-        then 
-        dnf install mysql -y 
-        ehco "Installing MySQL is ... SUCCESS"
-        else
-        echo "Installing MuSQL is .... FAILURE"
-
-        exit 1
-        fi 
+ then 
+    ehco "Installing MySQL is ... SUCCESS"
+    else
+    echo "Installing MuSQL is .... FAILURE"
+    exit 1
+fi 
   else
         echo "MYSQL is already installed .. Nothing to do"
         exit 1 
-    fi
+fi
 
 
 
