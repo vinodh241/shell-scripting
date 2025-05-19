@@ -47,6 +47,7 @@ if [ $USERID -ne 0 ]
 dnf list installed mysql
 if [ $? -eq 0 ]
         then 
+        dnf install mysql -y 
         ehco "Installing MySQL is ... SUCCESS"
         else
         echo "Installing MuSQL is .... FAILURE"
