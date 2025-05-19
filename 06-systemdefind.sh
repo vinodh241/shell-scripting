@@ -10,11 +10,13 @@ systemdefinedvaraibles
 
 echo "systemdefined varaiables"
 
-HistorySize=$HISTSIZE
-username=$USER
+#HistorySize=$HISTSIZE
+#username=$USER
 
-echo "The histsize is : " $HISTSIZE
-echo "The username is : " $USER
+#echo "The histsize is : " $HISTSIZE
+#echo "The username is : " $USER
+
+
 
 
 
