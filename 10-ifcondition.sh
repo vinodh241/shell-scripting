@@ -49,7 +49,7 @@ fi
     dnf install mysql -y  
 if [ $? -eq 0 ]
  then 
-    ehco "Installing MySQL is ... SUCCESS"
+    echo "Installing MySQL is ... SUCCESS"
     else
     echo "Installing MuSQL is .... FAILURE"
     exit 1
