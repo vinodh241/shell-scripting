@@ -18,7 +18,7 @@ else
 fi
 
 # VALIDATE functions takes input as exit  status, what command they tried to install 
-VALIDATE(){
+    VALIDATE(){
         if [ $1 -eq 0 ]
         then
            echo -e "$G Installing $2 is ..... SUCCESS $N"
@@ -27,7 +27,8 @@ VALIDATE(){
            exit 1 
         fi           
 }
-for package in $@
+for package in ${PACKAGES[@]}
+#for package in $@
 do
     dnf list installed $package 
     if [ $? -ne 0 ]
