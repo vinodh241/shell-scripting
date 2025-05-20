@@ -43,6 +43,7 @@ VALIDATE(){
          echo "MySQL is not installed....please install MySQL"
             dnf install mysql -y
          echo "installing mysql package ....."
+    fi     
 #done
 
 
