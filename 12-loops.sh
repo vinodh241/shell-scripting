@@ -8,7 +8,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 #LOG_FOLDER="/var/log/shellscript-logs"
-PACKAGES=("mysql" "python" "nginx" "httpd")
+PACKAGES=("mysql" "python3" "nginx" "httpd")
 if [ $USERID -ne 0 ]
 then
     echo -e "$R ERROR: : $Y Please run this script with root access $N"
