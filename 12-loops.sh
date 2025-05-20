@@ -10,7 +10,7 @@ N="\e[0m"
 
 #LOG_FOLDER="/var/log/shellscript-logs"
 
-PACKAGES=("mysql" "python" "nginx" "httpd")  
+PACKAGES=("mysql" "python" "nginx" "httpd")
 
 
 if [ $USERID -ne 0 ]
@@ -26,28 +26,28 @@ fi
 VALIDATE(){
         if [ $1 -eq 0 ]
         then
-           echo "Installing $2 is ..... SUCCESS"
+           echo -e "$G Installing $2 is ..... SUCCESS $N"
         else
-           echo "Installing $2 is ..... FAILURE"
+           echo -e "$R Installing $2 is ..... FAILURE $N"
            exit 1 
         fi           
 }
-
-#for package in ${PACKAGES[@]}
-#do
-dnf list installed mysql
-    if [ $? -ne 1 ]
+for package in ${PACKAGES[@]}
+do
+dnf list installed $package
+    if [ $? -ne 0 ]
     then
-        echo "MYSQL is installed ... Nothing to do"
-
-    else
-        echo "MySQL is not installed....please install MySQL"
-
-            dnf install mysql -y
+        echo "$package is not installed....please install MySQL"
+        dnf install $package -y
+        VALIDATE $? "MYSQL"
 
         echo "installing mysql package ....."
+
+    else
+        echo -e "$package is installed ... Nothing to do"
+
     fi     
-#done
+done
 
 
 
