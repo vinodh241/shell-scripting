@@ -15,10 +15,10 @@ PACKAGES=("mysql" "python" "nginx" "httpd")
 
 if [ $USERID -ne 0 ]
 then
-    echo "$R ERROR: : $Y Please run this script with root access $N"
+    echo -e "$R ERROR: : $Y Please run this script with root access $N"
     exit 1
 else
-   echo "$G You are running with root access $N"
+   echo -e "$G You are running with root access $N"
 fi
 
 # VALIDATE functions takes input as exit  status, what command they tried to install 
