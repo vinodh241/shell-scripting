@@ -35,7 +35,7 @@ VALIDATE(){
 
 #for package in ${PACKAGES[@]}
 #do
-    if [ $? -nq 0 ]
+    if [ $? -ne 0 ]
     then
         echo "MYSQL is installed ... Nothing to do"
 
