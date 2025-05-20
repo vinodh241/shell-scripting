@@ -37,11 +37,11 @@ do
 dnf list installed $package
     if [ $? -ne 0 ]
     then
-        echo "$package is not installed....please install MySQL"
+        echo "$package is not installed....please install $package"
         dnf install $package -y
         VALIDATE $? "$package"
 
-        echo -e "$G installing mysql package ..... $N"
+        echo -e "$G installing $package package ..... $N"
 
     else
         echo -e " $G $package is installed ... Nothing to do $N"
