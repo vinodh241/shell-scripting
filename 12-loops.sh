@@ -35,7 +35,7 @@ VALIDATE(){
 
 #for package in ${PACKAGES[@]}
 #do
-dnf installed mysql
+dnf list installed mysql
     if [ $? -ne 0 ]
     then
         echo "MYSQL is installed ... Nothing to do"
@@ -44,7 +44,7 @@ dnf installed mysql
         echo "MySQL is not installed....please install MySQL"
 
             dnf install mysql -y
-            
+
         echo "installing mysql package ....."
     fi     
 #done
