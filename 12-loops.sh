@@ -39,14 +39,16 @@ dnf list installed $package
     then
         echo "$package is not installed....please install MySQL"
         dnf install $package -y
-        VALIDATE $? "MYSQL"
+        VALIDATE $? "$package"
 
-        echo "installing mysql package ....."
+        echo -e "$G installing mysql package ..... $N"
 
     else
-        echo -e "$package is installed ... Nothing to do"
+        echo -e " $G $package is installed ... Nothing to do $N"
+    fi
 
-    fi     
+
+
 done
 
 
