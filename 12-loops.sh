@@ -16,6 +16,7 @@ then
 else
    echo -e "$G You are running with root access $N"
 fi
+
 # VALIDATE functions takes input as exit  status, what command they tried to install 
 VALIDATE(){
         if [ $1 -eq 0 ]
@@ -25,10 +26,10 @@ VALIDATE(){
            echo -e "$R Installing $2 is ..... FAILURE $N"
            exit 1 
         fi           
-    }
+}
 for package in $@
 do
-dnf list installed $package
+    dnf list installed $package 
     if [ $? -ne 0 ]
     then
         echo "$package is not installed....please install $package"
