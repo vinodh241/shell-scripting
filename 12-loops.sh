@@ -25,7 +25,7 @@ VALIDATE(){
            echo -e "$R Installing $2 is ..... FAILURE $N"
            exit 1 
         fi           
-}
+    }
 for package in $@
 do
 dnf list installed $package
