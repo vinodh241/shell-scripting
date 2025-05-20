@@ -36,9 +36,8 @@ do
         echo "$package is not installed....please install $package"
         dnf install $package -y
         VALIDATE $? "$package"
-        echo -e "$G installing $package package ..... $N"
     else
-        echo -e " $G $package is installed ... Nothing to do $N" | tee -a
+        echo -e " $G Nothing to do $package already installed ...  $N" | tee -a
     fi
 done
 
